@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /scripts/
+
+# Allow all bots to crawl the entire site except for specific folders
+
+Sitemap: https://vimarshtiwari.vercel.app/sitemap.xml
