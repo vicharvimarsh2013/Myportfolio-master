@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const elements = document.querySelectorAll('.animate'); // Select all elements with the animate class
+    const elements = document.querySelectorAll('.logo.animate'); // Select all elements with the animate class
     console.log(`Found ${elements.length} elements to animate`);
 
     const observer = new IntersectionObserver((entries) => {
