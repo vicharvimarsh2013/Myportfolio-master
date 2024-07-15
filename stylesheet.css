@@ -367,7 +367,7 @@ a {
   height: 10px;
   width: 10px;
   padding: 0;
-  background-color: rgba(227, 72, 255, 0.244);
+  background-color: white;
   border-radius: 50%;
   position: fixed;
   left: 0;
@@ -805,6 +805,11 @@ a {
   transition: all ease 0.5s;
   justify-content: space-between;
 }
+.experience-box-title{
+  display: flex; 
+  justify-content:center;
+
+}
 
 #experience-box h3 {
   margin: 0;
@@ -820,7 +825,7 @@ a {
   margin: 0;
 
 }
-
+#experience-boc
 #experience-box i {
   font-size: 4vw;
   transition: all ease-in-out 0.6s;
@@ -852,7 +857,7 @@ i {
 
 #experience-box:hover {
 
-  height: 250px;
+
   font-size: 2vw;
   color: rgb(255, 255, 255);
   box-shadow: #2a1454;
@@ -1020,7 +1025,11 @@ input[type=email] {
   font-size: 2vw;
   border-top: 1px solid black;
   padding: 20px 0;
+}
 
+.contact-icons i:hover {
+background-color: #000
+;
 }
 
 .contact-socials-title {
@@ -1042,7 +1051,13 @@ input[type=email] {
   height: fit-content;
   border-radius: 50%;
   padding: 10px;
+  transition: all ease 0.5s;
 }
+.contact-icons i:hover {
+  background-color: rgba(0, 0, 0, 0.942);
+ 
+}
+
 
 .contact-header-2 {
   display: flex;
@@ -1616,12 +1631,6 @@ textarea {
     display: none;
   }
 
- 
-
-  #contact a {
-    font-size: 5vw;
-    display: none;
-  }
 
   #full i {
     position: absolute;
@@ -1783,7 +1792,29 @@ textarea {
   
 
 }
-
+@media only screen and (max-width: 360px){
+  .follow-nav{
+    display: none;
+  }
+  #submit-btn p{
+    line-height: 0;
+    width: 100%;
+    font-size: 4vw;
+  }
+  .submit-btn h5{
+    font-size: 3vw;
+  }
+  .exp
+  form{
+    top: 38%;
+  }
+  .expertise-boxes{
+    column-gap: 10px;
+  }
+  #contact{
+   
+  }
+}
 @media only screen and (max-width: 338px) {
   
   #about-page{

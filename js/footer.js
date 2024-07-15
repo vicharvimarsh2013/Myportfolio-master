@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             gsap.to(cursorCircle, { 
                 width: 10, 
                 height: 10, 
-                backgroundColor: 'purple', 
+                backgroundColor: 'white', 
                 backgroundImage: 'none',
                 duration: 0.3,
                 borderRadius:'50% ',
